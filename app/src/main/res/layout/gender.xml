@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/dialogbg"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please select your gender"
+        android:fontFamily="@font/dejavusansregular"
+        android:textSize="20dp"
+        android:layout_marginVertical="15dp"
+        android:paddingVertical="0dp"
+        android:paddingHorizontal="20dp"/>
+
+    <RadioGroup
+        android:id="@+id/rgrp"
+        android:paddingVertical="10dp"
+        android:paddingHorizontal="29dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rb1"
+
+            android:fontFamily="@font/dejavusansregular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male" />
+
+        <RadioButton
+            android:id="@+id/rb2"
+            android:fontFamily="@font/dejavusansregular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female" />
+
+        <RadioButton
+            android:id="@+id/rb3"
+            android:fontFamily="@font/dejavusansregular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Haram gender (Agender, Dreamgender, Genderfluid, etc) " />
+    </RadioGroup>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="5dp"
+        android:layout_height="wrap_content"
+        android:gravity="end">
+    <Button
+        android:textSize="15dp"
+        style="?android:attr/borderlessButtonStyle"
+        android:id="@+id/doneb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="done"
+        android:backgroundTint="?colorOnPrimary"
+        android:textColor="?colorPrimary"/>
+    </LinearLayout>
+
+</LinearLayout>

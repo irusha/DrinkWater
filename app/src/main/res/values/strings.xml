@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Drink water</string>
+    <string name="dwb">I drank another glass</string>
+    <string name="cb">Close</string>
+    <string name="you_drank_another_glass">You drank another glass!</string>
+    <string name="keep_going">Keep going!</string>
+    <string name="title_activity_history_data">HistoryData</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="last_glass">Last glass:</string>
+    <string name="your_today_activity">Your today activity:</string>
+    <string name="find_out_how_you_did_in_the_past">Find out how you did in the past →</string>
+    <string name="of_the_daily_requirement">of the daily requirement</string>
+    <string name="your_daily_activity">Your daily activity</string>
+    <string name="water_amount_consumed_in_the_last_7_days">Total water amount consumed in the last 7 days</string>
+    <string name="average_amount_of_water_consumed_per_day_in_the_last_7_days">Average amount of water consumed per day in the last 7 days</string>
+    <string name="drinkinghabit">You have a very good water drinking habit. Keep it up!</string>
+    <string name="back_to_the_main_window">← Back to the main window</string>
+    <string name="application_settings">Application settings</string>
+    <string name="nodatafordrinkinghabit">Not enough data to analyze your drinking habit</string>
+    <string name="drinkinghabit1">You have a good water drinking habit. Keep it up!</string>
+    <string name="drinkinghabit2">You have a moderate water drinking habit. Try to improve it!</string>
+    <string name="drinkinghabit3">You have a bad water drinking habit. You have to improve it!</string>
+    <string name="drinkinghabit4">You have a very bad water drinking habit. Take an action immediately!</string>
+    <string name="settings">Settings</string>
+    <string name="allow_notifications">Allow notifications</string>
+    <string name="size_of_a_glass_ml">Size of a glass (mL)</string>
+    <string name="back_to_the_activity_window">← Back to the activity window</string>
+</resources>
